@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:visible="true"
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_profile"
+            android:title="@string/menu_profile" />
+        <item
+            android:visible="true"
+            android:id="@+id/nav_theme"
+            android:title="@string/menu_theme" />
+        <item
+            android:visible="true"
+            android:id="@+id/kotlin_theme"
+            android:title="@string/menu_kotlin" />
+    </group>
+</menu>
