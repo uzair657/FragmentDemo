@@ -12,6 +12,7 @@ import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewpager.widget.ViewPager;
 
 import com.uxi.fragmentsdemo.Adapter.PagerAdapter;
+import com.uxi.fragmentsdemo.Controller.LoginActivity;
 import com.uxi.fragmentsdemo.Controller.ProfileActivity;
 import com.uxi.fragmentsdemo.Controller.ThemeActivity;
 import com.uxi.fragmentsdemo.Fragments.DashboardFragment;
@@ -55,6 +56,10 @@ public class HomeActivity extends AppCompatActivity {
                         Intent KotlinTheme = new Intent(HomeActivity.this, ThemesKotlin.class);
                         startActivity(KotlinTheme);
                         break;
+                    case "Login":
+                        Intent Login = new Intent(HomeActivity.this, LoginActivity.class);
+                        startActivity(Login);
+
 
                 }
 

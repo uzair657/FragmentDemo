@@ -18,5 +18,11 @@
             android:visible="true"
             android:id="@+id/kotlin_theme"
             android:title="@string/menu_kotlin" />
+        <item
+            android:id="@+id/Login"
+            android:visible="true"
+            android:title="@string/menu_login"
+            />
+
     </group>
 </menu>
