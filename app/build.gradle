@@ -48,15 +48,17 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3'
 
     // Google Login Library
-    implementation 'com.google.android.gms:play-services-auth:20.0.0'
+    implementation 'com.google.android.gms:play-services-auth:20.0.1'
 
     // Facebook Login Library
-    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'
+    implementation 'com.facebook.android:facebook-login:latest.release'
 
     // Convert Any url - to - Image
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     //Kotlin Required
     implementation 'androidx.core:core-ktx:1.7.0'
+
+    implementation 'com.daimajia.androidanimations:library:2.4@aar'
 
 }

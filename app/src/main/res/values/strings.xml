@@ -10,13 +10,15 @@
     <string name="menu_login">Login</string>
 
 
-
     <!-- Menu Names List End-->
     <!-- TODO: Remove or change this placeholder text -->
     <string name="newOrder">This is New Order UI</string>
     <string name="dashboard">This is Dashboard UI</string>
     <string name="title_activity_maps">MapsActivity</string>
 
+    <!--Facebook Sign in Button -->
+    <string name="facebook_app_id">416811009797385</string>
+    <string name="fb_login_protocol_scheme">fb416811009797385</string>
 
 
     <!--Kotlin Themes String-->
